@@ -1,8 +1,10 @@
 # 02-02-mtusy-netology
 
 Зависимости и окружение — через [uv](https://docs.astral.sh/uv/).  
+  
 Готовый `.md` отчет лежит в папке [reports](reports/).  
 JINJA-промт лежит в папке [prompts](prompts/).  
+Список продуктовых кейсов (вопросы и рубрики): константа [`FEW_SHOT_CASES`](src/product_fewshot_eval.py#L134) в `src/product_fewshot_eval.py` (строки 134–174).  
 
 ## Установка и тесты
 
