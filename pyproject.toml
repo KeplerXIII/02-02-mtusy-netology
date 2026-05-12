@@ -1,0 +1,28 @@
+[project]
+name = "mtusy-netology"
+version = "0.1.0"
+description = "System prompt техподдержки, тесты, сравнение few-shot и отчёты по API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jinja2>=3.1.0",
+    "tiktoken>=0.7.0",
+    "openai>=1.30.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = [
+    "integration: сетевые вызовы API (нужен DEEPSEEK_API_KEY)",
+    "product: продуктовый прогон few-shot vs без (10 запросов к API + отчёт)",
+]
