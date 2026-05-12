@@ -1,8 +1,8 @@
 # 02-02-mtusy-netology
 
-Зависимости и окружение — через [uv](https://docs.astral.sh/uv/). 
-Готовый `.md` отчет лежит в папке [reports](reports/). 
-JINJA-промт лежит в папке [prompts](prompts/). 
+Зависимости и окружение — через [uv](https://docs.astral.sh/uv/).  
+Готовый `.md` отчет лежит в папке [reports](reports/).  
+JINJA-промт лежит в папке [prompts](prompts/).  
 
 ## Установка и тесты
 
